@@ -1,0 +1,101 @@
+graph TD
+
+%% Subgraphs for organizational clarity
+subgraph Requirements Management
+    DOORS[IBM DOORS NG]
+end
+
+subgraph System Modeling
+    Cameo[Cameo Systems Modeler]
+end
+
+subgraph CAD and CAE Tools
+    NX[Siemens NX]
+    Nastran[MSC Nastran]
+    OpenFOAM[OpenFOAM]
+end
+
+subgraph Simulation and Modeling
+    Matlab[MATLAB/Simulink]
+end
+
+subgraph Risk Management
+    ARM[Active Risk Manager]
+end
+
+subgraph Project Management
+    MSProject[Microsoft Project]
+    ACEIT[ACEIT]
+end
+
+subgraph Productivity Tools
+    Word[Microsoft Word]
+    Excel[Microsoft Excel]
+    PowerPoint[Microsoft PowerPoint]
+    Acrobat[Adobe Acrobat]
+end
+
+subgraph Configuration Management
+    Git[Git Repository]
+end
+
+subgraph Safety and Reliability
+    ReliaSoft[ReliaSoft]
+    CAFTA[CAFTA/FaultTree+]
+end
+
+subgraph Software Development
+    Polyspace[Polyspace]
+    Coverity[Coverity]
+end
+
+subgraph Human Modeling
+    Jack[Siemens Jack]
+    Santos[SantosHuman Santos]
+end
+
+%% Data Flow Connections
+DOORS --> |"Requirements"| Cameo
+Cameo --> |"System Models"| NX
+NX --> |"CAD Models"| Nastran
+NX --> |"CAD Models"| OpenFOAM
+Nastran --> |"FEA Results"| NX
+OpenFOAM --> |"CFD Results"| NX
+NX --> |"Design Data"| Matlab
+Matlab --> |"Simulation Models"| NX
+
+Cameo --> |"Interface Definitions"| Git
+NX --> |"CAD Files"| Git
+Matlab --> |"Simulation Files"| Git
+Nastran --> |"FEA Data"| Git
+OpenFOAM --> |"CFD Data"| Git
+
+Word --> |"Documents"| Git
+Excel --> |"Spreadsheets"| Git
+PowerPoint --> |"Presentations"| Git
+Acrobat --> |"PDF Reports"| Git
+
+Git --> |"Version Control"| ARM
+Git --> |"Version Control"| MSProject
+Git --> |"Version Control"| Polyspace
+Git --> |"Version Control"| Coverity
+
+ARM --> |"Risk Data"| MSProject
+ARM --> |"Risk Data"| ACEIT
+MSProject --> |"Schedule Updates"| ACEIT
+ACEIT --> |"Cost Estimates"| MSProject
+
+ReliaSoft --> |"Reliability Data"| ARM
+CAFTA --> |"Safety Analysis"| ReliaSoft
+
+Polyspace --> |"Code Analysis"| Git
+Coverity --> |"Code Analysis"| Git
+
+Jack --> |"Human Factors Data"| Cameo
+Santos --> |"Human Factors Data"| Cameo
+
+%% Notes and Styles
+classDef cloud fill:#cfe3ff,stroke:#000,stroke-width:1px;
+classDef storage fill:#fff3cf,stroke:#000,stroke-width:1px;
+
+class Git storage
