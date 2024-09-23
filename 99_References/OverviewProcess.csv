@@ -1,0 +1,133 @@
+Step,Objective,Personas Involved,Tasks,Deliverables (File Type & Example File Name),Models/Simulations (File Type & Example File Name),Tools Used,Notes
+0. PDR Entrance Criteria Verification,"Ensure all entrance criteria are met before proceeding to PDR.","- Project Manager
+- Systems Engineer
+- Review Chair","- Verify completion of previous life-cycle reviews.
+- Ensure all RFAs and RIDs are addressed or have closure plans.
+- Agree on PDR agenda, success criteria, and instructions to the review board.
+- Confirm readiness of programmatic products per governing NPRs.
+- Verify that all planned lower-level PDRs and peer reviews have been conducted.","- Entrance Criteria Compliance Matrix (.xlsx, 'Entrance_Criteria_Compliance.xlsx')
+- PDR Agenda (.docx, 'PDR_Agenda.docx')
+- Instructions to Review Board (.docx, 'Review_Board_Instructions.docx')",,"- Microsoft Excel for compliance matrix
+- Microsoft Word for documents","New step added per NASA standard."
+1. Introduction and Project Overview,"Provide a high-level overview of the project, including mission objectives, scope, schedule, and confirm that top-level requirements are agreed upon and finalized.","- Project Manager
+- Systems Engineer","- Present mission objectives and key milestones.
+- Confirm agreement on top-level requirements, including mission success criteria and Technical Performance Measures (TPMs).
+- Update the Mission Objectives Document.","- Project Overview Presentation (.pptx, 'Project_Overview_Presentation.pptx')
+- Mission Objectives Document (.docx, 'Mission_Objectives.docx')
+- Top-Level Requirements Document (.docx, 'Top_Level_Requirements.docx')",,"- Microsoft PowerPoint for presentation
+- Microsoft Word for documents","Emphasized agreement on top-level requirements as per success criteria."
+2. Requirements Review and Traceability,"Verify that all system requirements are identified, properly flowed down, and traceable to mission goals and objectives.","- Systems Engineer
+- Requirements Analyst","- Compile System Requirements Specification.
+- Update the Requirements Traceability Matrix.
+- Identify any TBD/TBR items with plans for resolution.","- System Requirements Specification (.docx, 'System_Requirements_Specification.docx')
+- Requirements Traceability Matrix (.xlsx, 'Requirements_Traceability_Matrix.xlsx')
+- TBD/TBR List with Resolution Plans (.xlsx, 'TBD_TBR_List.xlsx')",,"- IBM Rational DOORS Next Generation (DOORS NG) for requirements management
+- Microsoft Excel for traceability matrix and TBD/TBR list
+- Microsoft Word for specification document","Ensured requirements flow-down and traceability per success criteria."
+3. Preliminary Design Presentation,"Demonstrate that the preliminary design meets all technical requirements with acceptable risk.","- Systems Engineer
+- Subsystem Engineers","- Present the preliminary design overview.
+- Highlight how the design meets requirements and performance measures.
+- Discuss design margins and technical resource utilization estimates.","- Preliminary Design Report (.pdf, 'Preliminary_Design_Report.pdf')
+- Design Margins and Resource Estimates (.xlsx, 'Design_Margins_Estimates.xlsx')","- Overall System Models (.mdzip, 'System_Architecture_Model.mdzip')","- Cameo Systems Modeler for SysML models
+- Microsoft Excel for resource estimates
+- Adobe Acrobat for report in PDF format","Aligned with the need to show the design meets requirements and has acceptable margins."
+4. Baselined Integration and Verification Plans,"Present and baseline the integration plans and Verification and Validation (V&V) Plan.","- Systems Engineer
+- Test Engineer","- Develop and present integration plans.
+- Develop and present the V&V Plan.
+- Baseline the plans after incorporating review comments.","- Integration Plan (.docx, 'Integration_Plan.docx')
+- Verification and Validation Plan (.docx, 'Verification_Validation_Plan.docx')",,"- Microsoft Word for documents
+- IBM Rational DOORS NG for linking requirements to tests","Added as required deliverables per NASA standard."
+5. Subsystem Design Specifications and Trade Studies,"Review subsystem designs, specifications, trade-off analyses, and data.",Subsystem Engineers,"- Present subsystem design specifications (hardware and software).
+- Discuss supporting trade studies and analyses.
+- Prepare for baselining after review comments are incorporated.","- Subsystem Design Specifications (.docx, e.g., 'Propulsion_Subsystem_Specification.docx')
+- Trade Study Reports (.pdf, e.g., 'Propulsion_Trade_Study_Report.pdf')","- Subsystem Models and Simulations (Various file types, e.g., '.slx', '.foam')","- Siemens NX for CAD models
+- NASTRAN for FEA simulations
+- OpenFOAM for CFD simulations
+- MATLAB/Simulink for control system models","Expanded to include trade studies and readiness for baselining per NASA standard."
+6. Technical Performance and Risk Assessment,"Provide status of technical performance related to margins, TPMs, and risk assessments.","- Systems Engineer
+- Risk Manager","- Update technical performance metrics.
+- Present updated risk assessments and mitigation plans.
+- Include updated technology readiness assessment and Technology Development Plan.","- Technical Performance Metrics Report (.xlsx, 'Technical_Performance_Metrics.xlsx')
+- Risk Register (.xlsx, 'Risk_Register.xlsx')
+- Risk Mitigation Plan (.docx, 'Risk_Mitigation_Plan.docx')
+- Technology Readiness Assessment (.docx, 'Technology_Readiness_Assessment.docx')
+- Technology Development Plan (.docx, 'Technology_Development_Plan.docx')",,"- Microsoft Excel for TPMs and Risk Register
+- Microsoft Word for documents
+- Active Risk Manager (ARM) for risk analysis","Included updated risk assessments and technology readiness per NASA standard."
+7. Cost, Schedule, and Joint Confidence Level (JCL) Analysis,"Review project cost, schedule, and JCL analysis (if required), ensuring they are credible and within constraints.","- Financial Analyst
+- Project Manager","- Update the Life-Cycle Cost estimates.
+- Update the Integrated Master Schedule (IMS).
+- Perform JCL analysis if required.
+- Prepare for baselining after review comments are incorporated.","- Life-Cycle Cost Estimate (.xlsx, 'Life_Cycle_Cost_Estimate.xlsx')
+- Integrated Master Schedule (IMS) (.mpp, 'Integrated_Master_Schedule.mpp')
+- JCL Analysis Report (if required) (.pdf, 'JCL_Analysis_Report.pdf')","- Cost Modeling Tools (.xlsx, 'Cost_Model.xlsx')","- Microsoft Excel for cost estimates and modeling
+- Microsoft Project for IMS
+- ACEIT or Polaris for JCL analysis","Added JCL analysis as per NASA standard."
+8. Safety, Security, and Mission Assurance (SMA),"Ensure safety, reliability, maintainability, and quality controls are adequately addressed.","- Safety Engineer
+- Quality Assurance Engineer
+- System Security Engineer","- Update safety analyses and plans.
+- Develop the Preliminary System Security Plan.
+- Conduct system safety analysis and Failure Modes and Effects Analysis (FMEA).
+- Prepare Project Protection Plan.
+- Identify single point failures.","- Safety Assessment Report (.pdf, 'Safety_Assessment_Report.pdf')
+- Preliminary System Security Plan (.docx, 'Preliminary_System_Security_Plan.docx')
+- Project Protection Plan (.docx, 'Project_Protection_Plan.docx')
+- FMEA Report (.xlsx, 'FMEA_Report.xlsx')
+- List of Single Point Failures (.xlsx, 'Single_Point_Failures.xlsx')","- Safety Analysis Models (.fta, 'Safety_Analysis_Model.fta')","- ReliaSoft or Reliability Workbench for FMEA/FMECA
+- CAFTA or FaultTree+ for fault tree analysis
+- Microsoft Excel for lists and reports
+- Microsoft Word for documents","Included safety and security deliverables per NASA standard."
+9. Applicable Technical Plans and Design Standards,"Present applicable technical plans and confirm incorporation of design standards.","- Systems Engineer
+- Compliance Officer","- Develop or update technical plans (e.g., contamination control, parts management).
+- Identify and incorporate applicable design standards.
+- Prepare plans for baselining after review comments.","- Technical Plans (.docx, e.g., 'Contamination_Control_Plan.docx')
+- List of Applicable Design Standards (.xlsx, 'Design_Standards_List.xlsx')",,"- Microsoft Word for plans
+- Microsoft Excel for lists","Added as required deliverables per NASA standard."
+10. Interface Control and Preliminary Engineering Drawing Tree,"Review interface definitions and preliminary engineering drawings.","- Systems Engineer
+- Mechanical Engineer
+- Electrical Engineer","- Develop and update Interface Control Documents (ICDs).
+- Prepare the preliminary engineering drawing tree.
+- Prepare for baselining after review comments are incorporated.","- Interface Control Documents (.docx, e.g., 'ICD_Avionics_Payload.docx')
+- Preliminary Engineering Drawing Tree (.pdf, 'Engineering_Drawing_Tree.pdf')","- Interface Models (.mdzip, 'Interface_Models.mdzip')","- Cameo Systems Modeler for interface models
+- Siemens NX for CAD drawings
+- Microsoft Word for ICDs
+- Adobe Acrobat for drawing tree PDF","Emphasized readiness for baselining ICDs per NASA standard."
+11. Software Review,"Ensure software components meet success criteria defined in NASA-HDBK-2203.","- Software Engineer
+- Software Assurance Engineer","- Update software development plans.
+- Present software criteria and products.
+- Ensure compliance with NASA software guidelines.","- Software Development Plan (.docx, 'Software_Development_Plan.docx')
+- Software Assurance Plan (.docx, 'Software_Assurance_Plan.docx')
+- Software Metrics Report (.xlsx, 'Software_Metrics.xlsx')","- Software Simulations/Models (.slx, 'Flight_Control_Model.slx')","- MATLAB/Simulink for models
+- Microsoft Word for plans
+- Static Analysis Tools (e.g., Polyspace, Coverity)","Added per NASA standard referencing NASA-HDBK-2203."
+12. Operations Concept and Support Planning,"Present and baseline the operations concept and Integrated Logistics Support Plan (ILSP).","- Operations Specialist
+- Logistics Manager","- Update the Concept of Operations (ConOps).
+- Develop the ILSP.
+- Prepare the Preliminary Disposal Plan.
+- Baseline plans after incorporating review comments.","- Concept of Operations Document (.docx, 'Concept_of_Operations.docx')
+- Integrated Logistics Support Plan (.docx, 'ILSP.docx')
+- Preliminary Disposal Plan (.docx, 'Preliminary_Disposal_Plan.docx')
+- Operations Manual Draft (.docx, 'Operations_Manual_Draft.docx')",,"- Microsoft Word for documents","Included ILSP and Disposal Plan as per NASA standard."
+13. Regulatory Compliance and Spectrum Certification,"Ensure compliance with regulatory requirements and spectrum certification.","- Regulatory Compliance Officer
+- Spectrum Manager","- Develop plans to respond to regulatory requirements (e.g., Environmental Impact Statement).
+- Submit design data to Spectrum Manager for Stage 2 spectrum support certification (at least 60 days prior to PDR).","- Regulatory Compliance Plan (.docx, 'Regulatory_Compliance_Plan.docx')
+- Spectrum Support Request Documentation (.docx, 'Spectrum_Support_Request.docx')",,"- Microsoft Word for documents","Added per NASA standard requirements for regulatory compliance and spectrum certification."
+14. Human Systems Integration (HSI),"Include HSI aspects in management and technical planning per NASA/SP-20210010952.","- Human Factors Engineer
+- Systems Engineer","- Update HSI approach.
+- Prepare the Human Rating Certification Package (if applicable).
+- Ensure HSI is integrated into design and operations planning.","- HSI Plan (.docx, 'HSI_Plan.docx')
+- Human Rating Certification Package (.docx, 'Human_Rating_Certification.docx')",,"- Microsoft Word for documents
+- Digital Human Modeling Tools (e.g., Siemens Jack, SantosHuman Santos)","Added per NASA standard's emphasis on HSI."
+15. Procurement Status and Supply Chain Risk Management (SCRM),"Review procurement status and SCRM activities.","- Procurement Manager
+- Supply Chain Manager","- Present procurement status.
+- Discuss SCRM activities (e.g., audits, GIDEP alerts, counterfeit avoidance).
+- Ensure procurement aligns with development schedule.","- Procurement Status Report (.xlsx, 'Procurement_Status.xlsx')
+- SCRM Plan and Activities Report (.docx, 'SCRM_Report.docx')",,"- Microsoft Excel for reports
+- Microsoft Word for documents
+- Enterprise Resource Planning (ERP) System (e.g., SAP)","Added per NASA standard requirement for procurement and SCRM."
+16. Conclusion and Action Items,"Summarize findings, outline next steps, assign action items, and ensure TBD/TBR items are identified with plans for resolution.",All Participants,"- Summarize key PDR points.
+- Compile action items and assign responsibilities.
+- Identify any remaining TBD/TBR items and resolution plans.","- Action Items List (.xlsx, 'Action_Items_List.xlsx')
+- PDR Meeting Minutes (.docx, 'PDR_Meeting_Minutes.docx')
+- TBD/TBR Resolution Plan (.xlsx, 'TBD_TBR_Resolution_Plan.xlsx')",,"- Microsoft Excel for action items and resolution plans
+- Microsoft Word for meeting minutes","Emphasized TBD/TBR identification and resolution plans per NASA standard."
