@@ -1,0 +1,44 @@
+model_id,artifact_id,artifact_name,artifact_extension,file_size_bytes,artifact_status,created_at,updated_at,signed_download_url
+a1b2c3d4-e5f6-7890-1234-56789abcdef0,f001,Presentation Summary,json,2048,available,2024-09-23T12:00:00.000000,2024-09-23T12:00:00.000000,<download_url_placeholder>
+a1b2c3d4-e5f6-7890-1234-56789abcdef0,f002,Slide Thumbnails,zip,512000,available,2024-09-23T12:01:00.000000,2024-09-23T12:01:00.000000,<download_url_placeholder>
+a1b2c3d4-e5f6-7890-1234-56789abcdef0,f003,Key Points Extract,txt,10240,available,2024-09-23T12:02:00.000000,2024-09-23T12:02:00.000000,<download_url_placeholder>
+a1b2c3d4-e5f6-7890-1234-56789abcdef0,f004,Presentation Outline,docx,20480,available,2024-09-23T12:03:00.000000,2024-09-23T12:03:00.000000,<download_url_placeholder>
+a1b2c3d4-e5f6-7890-1234-56789abcdef0,f005,Embedded Media List,json,1024,available,2024-09-23T12:04:00.000000,2024-09-23T12:04:00.000000,<download_url_placeholder>
+a1b2c3d4-e5f6-7890-1234-56789abcdef0,f006,Slide Notes,txt,15360,available,2024-09-23T12:05:00.000000,2024-09-23T12:05:00.000000,<download_url_placeholder>
+a1b2c3d4-e5f6-7890-1234-56789abcdef0,f007,Presentation PDF,pdf,1024000,available,2024-09-23T12:06:00.000000,2024-09-23T12:06:00.000000,<download_url_placeholder>
+a1b2c3d4-e5f6-7890-1234-56789abcdef0,f008,Metadata,json,512,available,2024-09-23T12:07:00.000000,2024-09-23T12:07:00.000000,<download_url_placeholder>
+a1b2c3d4-e5f6-7890-1234-56789abcdef0,f009,Hyperlinks List,csv,2048,available,2024-09-23T12:08:00.000000,2024-09-23T12:08:00.000000,<download_url_placeholder>
+a1b2c3d4-e5f6-7890-1234-56789abcdef0,f010,Embedded Charts Data,xlsx,30720,available,2024-09-23T12:09:00.000000,2024-09-23T12:09:00.000000,<download_url_placeholder>
+
+a2b3c4d5-e6f7-8901-2345-67890abcdef1,f011,Mission Objectives Summary,json,3072,available,2024-09-23T12:10:00.000000,2024-09-23T12:10:00.000000,<download_url_placeholder>
+a2b3c4d5-e6f7-8901-2345-67890abcdef1,f012,Key Objectives List,txt,5120,available,2024-09-23T12:11:00.000000,2024-09-23T12:11:00.000000,<download_url_placeholder>
+a2b3c4d5-e6f7-8901-2345-67890abcdef1,f013,Document Metadata,json,1024,available,2024-09-23T12:12:00.000000,2024-09-23T12:12:00.000000,<download_url_placeholder>
+a2b3c4d5-e6f7-8901-2345-67890abcdef1,f014,Embedded Images,zip,256000,available,2024-09-23T12:13:00.000000,2024-09-23T12:13:00.000000,<download_url_placeholder>
+a2b3c4d5-e6f7-8901-2345-67890abcdef1,f015,Text Content Extract,txt,20480,available,2024-09-23T12:14:00.000000,2024-09-23T12:14:00.000000,<download_url_placeholder>
+a2b3c4d5-e6f7-8901-2345-67890abcdef1,f016,Table of Contents,txt,1024,available,2024-09-23T12:15:00.000000,2024-09-23T12:15:00.000000,<download_url_placeholder>
+a2b3c4d5-e6f7-8901-2345-67890abcdef1,f017,Document Outline,pdf,51200,available,2024-09-23T12:16:00.000000,2024-09-23T12:16:00.000000,<download_url_placeholder>
+a2b3c4d5-e6f7-8901-2345-67890abcdef1,f018,References List,csv,2048,available,2024-09-23T12:17:00.000000,2024-09-23T12:17:00.000000,<download_url_placeholder>
+a2b3c4d5-e6f7-8901-2345-67890abcdef1,f019,Embedded Charts Data,xlsx,20480,available,2024-09-23T12:18:00.000000,2024-09-23T12:18:00.000000,<download_url_placeholder>
+a2b3c4d5-e6f7-8901-2345-67890abcdef1,f020,Glossary,json,1024,available,2024-09-23T12:19:00.000000,2024-09-23T12:19:00.000000,<download_url_placeholder>
+
+a3b4c5d6-e7f8-9012-3456-78901abcdef2,f021,Requirements List,csv,20480,available,2024-09-23T12:20:00.000000,2024-09-23T12:20:00.000000,<download_url_placeholder>
+a3b4c5d6-e7f8-9012-3456-78901abcdef2,f022,Requirements Traceability,xlsx,30720,available,2024-09-23T12:21:00.000000,2024-09-23T12:21:00.000000,<download_url_placeholder>
+a3b4c5d6-e7f8-9012-3456-78901abcdef2,f023,High-Level Requirements,json,10240,available,2024-09-23T12:22:00.000000,2024-09-23T12:22:00.000000,<download_url_placeholder>
+a3b4c5d6-e7f8-9012-3456-78901abcdef2,f024,Requirement Changes Log,txt,5120,available,2024-09-23T12:23:00.000000,2024-09-23T12:23:00.000000,<download_url_placeholder>
+a3b4c5d6-e7f8-9012-3456-78901abcdef2,f025,Compliance Matrix,xlsx,25600,available,2024-09-23T12:24:00.000000,2024-09-23T12:24:00.000000,<download_url_placeholder>
+a3b4c5d6-e7f8-9012-3456-78901abcdef2,f026,Requirements Summary,pdf,51200,available,2024-09-23T12:25:00.000000,2024-09-23T12:25:00.000000,<download_url_placeholder>
+a3b4c5d6-e7f8-9012-3456-78901abcdef2,f027,Glossary of Terms,json,2048,available,2024-09-23T12:26:00.000000,2024-09-23T12:26:00.000000,<download_url_placeholder>
+a3b4c5d6-e7f8-9012-3456-78901abcdef2,f028,Requirement Priorities,csv,10240,available,2024-09-23T12:27:00.000000,2024-09-23T12:27:00.000000,<download_url_placeholder>
+a3b4c5d6-e7f8-9012-3456-78901abcdef2,f029,Stakeholder List,txt,5120,available,2024-09-23T12:28:00.000000,2024-09-23T12:28:00.000000,<download_url_placeholder>
+a3b4c5d6-e7f8-9012-3456-78901abcdef2,f030,Metadata,json,1024,available,2024-09-23T12:29:00.000000,2024-09-23T12:29:00.000000,<download_url_placeholder>
+
+a5b6c7d8-e9f0-1234-5678-90123abcdef4,f031,System Architecture PNG,png,204800,available,2024-09-23T12:30:00.000000,2024-09-23T12:30:00.000000,<download_url_placeholder>
+a5b6c7d8-e9f0-1234-5678-90123abcdef4,f032,System Components List,csv,10240,available,2024-09-23T12:31:00.000000,2024-09-23T12:31:00.000000,<download_url_placeholder>
+a5b6c7d8-e9f0-1234-5678-90123abcdef4,f033,Interfaces Definition,json,5120,available,2024-09-23T12:32:00.000000,2024-09-23T12:32:00.000000,<download_url_placeholder>
+a5b6c7d8-e9f0-1234-5678-90123abcdef4,f034,Architecture Diagram PDF,pdf,102400,available,2024-09-23T12:33:00.000000,2024-09-23T12:33:00.000000,<download_url_placeholder>
+a5b6c7d8-e9f0-1234-5678-90123abcdef4,f035,Sub-System Diagrams,zip,512000,available,2024-09-23T12:34:00.000000,2024-09-23T12:34:00.000000,<download_url_placeholder>
+a5b6c7d8-e9f0-1234-5678-90123abcdef4,f036,Data Flow Diagram,png,204800,available,2024-09-23T12:35:00.000000,2024-09-23T12:35:00.000000,<download_url_placeholder>
+a5b6c7d8-e9f0-1234-5678-90123abcdef4,f037,Use Case Diagram,png,102400,available,2024-09-23T12:36:00.000000,2024-09-23T12:36:00.000000,<download_url_placeholder>
+a5b6c7d8-e9f0-1234-5678-90123abcdef4,f038,Architecture Metadata,json,2048,available,2024-09-23T12:37:00.000000,2024-09-23T12:37:00.000000,<download_url_placeholder>
+a5b6c7d8-e9f0-1234-5678-90123abcdef4,f039,Component Relationships,csv,10240,available,2024-09-23T12:38:00.000000,2024-09-23T12:38:00.000000,<download_url_placeholder>
+a5b6c7d8-e9f0-1234-5678-90123abcdef4,f040,Version History,json,1024,available,2024-09-23T12:39:00.000000,2024-09-23T12:39:00.000000,<download_url_placeholder>
